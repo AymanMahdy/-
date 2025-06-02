@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اميل رسمي لتحميل المسلسلات </title>
+    <link rel="stylesheet" href="syle.css">
+
+
+
+</head>
+<body>
+    <div class="container">
+        <h1>اميل رسمي لتحميل المسلسلات</h1>
+        <form id="emailForm">
+            <div class="form-group">
+                <label for="recipient" dir="rtl">اسم المرسل</label>
+                <input type="text" id="recipient" name="recipient" style="text-align: right;" placeholder="ايمن مهدي" readonly>
+            </div>
+            <div class="form-group" dir="rtl">
+                <label for="subject">اسم الموظف المستلم</label>
+                <input type="text" id="subject" name="subject" style="text-align: right;" placeholder="مصفطفي نجم - الشهير بميمي" readonly>
+            </div>
+            <div class="form-group">
+                <label for="fileName " dir="rtl">نوع المسلسلات</label>
+                <input type="text" id="fileName" name="fileName" style="text-align: right;" placeholder="اجنبي" readonly>
+            </div>
+            <div class="form-group">
+                <label for="downloadLink" dir="rtl">موعد التسليم</label>
+                <input type="url" id="downloadLink" name="downloadLink" style="text-align: right;" placeholder="خلال يومين كحد اقصي" readonly>
+            </div>
+            <div class="form-group">
+                <label for="senderName" dir="rtl">حاله الموظف</label>
+                <input type="none" id="senderName" name="senderName" style="text-align: right;" placeholder="سارق نت" readonly>
+            </div>
+            <div class="form-group">
+                <label for="senderName" dir="rtl">حاله الاميل</label>
+                <input type="none" id="senderName" name="senderName" style="text-align: right;" placeholder="هذا الاميل موثق من رئاسه الجمهوريه" readonly>
+            </div>
+            <button type="submit">تحميل الملف</button>
+        </form>
+        <div id="preview" class="preview">
+            <h2 dir="rtl">اميل معتمد من نقابه الممثلين ورئاسه الجمهوريه</h2>
+            <div id="emailPreview" dir="rtl"> يتشرف الرئيس السيسي بتوثيق هذا الاميل شخصيا ويطلب من الموظف المستلم تسليم هذه المسلسلات في اقرب وقت </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
